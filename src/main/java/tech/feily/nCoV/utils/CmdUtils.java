@@ -53,13 +53,13 @@ public class CmdUtils {
             return;
         }
         String[] split = removeSpace(cmdline).split("-");
-        if (split.length == 2) {
+        if (split.length == 2 && split[0].equalsIgnoreCase("prc")) {
             if (cmdMap.containsKey(split[0]) && cmdMap.get(split[0]).containsKey(split[0] + split[1])) {
                 HttpRequestUtils.get(cmdMap.get(split[0]).get(split[0] + split[1]), "prc");
             } else {
                 System.out.println("Wrong command or parameter options, please try again.\n");
             }
-        } else if (split.length == 3) {
+        } else if (split.length == 3 && split[0].equalsIgnoreCase("pro")) {
             if (!isExist(split[2])) {
                 System.out.println("Incorrect province / City input, please try again.\n");
                 return;

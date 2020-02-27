@@ -18,7 +18,7 @@ public class App  {
     public static void main( String[] args ) throws InterruptedException {
         CmdUtils.welcome();
         while (true) {
-            System.out.print("> ");
+            System.out.print("2019nCoV > ");
             cmdline = scan.nextLine();
             if (cmdline.equalsIgnoreCase("exit") || cmdline.equalsIgnoreCase("e")) {
                 break;
