@@ -17,6 +17,28 @@ You need to install JDK1.8 or jre1.8 (if you just want to run it), configure you
 
 Of course, you can also add the bat file to the path variable under your environment variable, so that you can run it from the command prompt under CMD, with the command of `2019ncov`.
 
+**List of all commands:**
+
+cmd | introduction
+----|-----
+`prc -s` | Time series data of China since 4:00 pm, January 24, 2020.
+`prc -n` | Latest data, not time series since 4:00 pm, January 24, 2020.
+`pro -s -省市` | Time series data of each province since 4:00 pm, January 24, 2020.
+`pro -n -省市` | Latest data, not time series since 4:00 pm, January 24, 2020.
+
+Currently supported provinces and cities include:
+
+省市 | 省市 | 省市 | 省市 | 省市 | 省市
+----|----|----|----|----|-----
+上海市 | 云南省 | 北京市 | 吉林省 | 四川省 | 天津市
+安徽省 | 山东省 | 山西省 | 广东省 | 江苏省 | 江西省
+河北省 | 河南省 | 浙江省 | 海南省 | 湖北省 | 湖南省
+甘肃省 | 福建省 | 贵州省 | 辽宁省 | 重庆市 | 陕西省
+青海省 | 黑龙江省 | 澳门 | 香港 | 台湾 | 内蒙古自治区
+宁夏回族自治区 | 广西壮族自治区 | 新疆维吾尔自治区 | 西藏自治区
+
+Please operate in strict accordance with the name of the above province.
+
 ## Copyright and notices
 
 + This software is licensed through MIT open source agreement.
