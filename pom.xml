@@ -48,7 +48,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>tech.feily.asusual.spider.action.App</mainClass>
+                        <mainClass>tech.feily.nCoV.App</mainClass>
                     </manifest>
                 </archive>
                 <descriptorRefs>
