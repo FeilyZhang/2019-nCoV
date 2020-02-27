@@ -16,7 +16,7 @@ If you just want to use it simply, you can download the compressed package [here
 ### Before using
 You need to install JDK1.8 or jre1.8 (if you just want to run it), configure your environment variables (there are many tutorials on the Internet), and then double-click the bat file to run it.
 
-Of course, you can also add the bat file to the path variable under your environment variable, so that you can run it from the command prompt under CMD, with the command of `2019ncov`.
+Of course, you can also add the bat file to the path variable under your environment variable, so that you can run it from the command prompt under CMD, with the command of `2019ncov` as below.
 
 ```
 λ 2019ncov
@@ -58,14 +58,14 @@ Please operate in strict accordance with the name of the above province.
 
 ### Some examples are as follows
 
-##### Obtain complete and up-to-date national epidemic data since 4:00 pm, January 24, 2020
+#### Obtain complete and up-to-date national epidemic data since 4:00 pm, January 24, 2020
 ```
 2019nCoV > prc -n
 Request succeeded, parsing...
 Write file succeeded, path is C:\Users\fei47\Desktop\1582804528356.csv
 ```
 
-##### Obtain complete time series data of the whole country since 4:00 pm, January 24, 2020
+#### Obtain complete time series data of the whole country since 4:00 pm, January 24, 2020
 ```
 2019nCoV > prc -s
 Request succeeded, parsing...
@@ -73,7 +73,7 @@ Write file succeeded, path is C:\Users\fei47\Desktop\1582804558056.csv
 ```
 Due to the large amount of data, this command may be time-consuming for data analysis. In particular, if your network is slow, there may be a timeout request or other problems. The current solution is to adjust the network quality and try again.
 
-##### Obtain complete and latest epidemic data of a province since 4:00 pm, January 24, 2020
+#### Obtain complete and latest epidemic data of a province since 4:00 pm, January 24, 2020
  ```
  2019nCoV > pro -n -陕西省
  Request succeeded, parsing...
@@ -81,7 +81,7 @@ Due to the large amount of data, this command may be time-consuming for data ana
  ```
  You need to pay attention to the format of the command. The names of provinces can only be listed in the table above.
  
-##### Obtain complete time series data of a province since 4:00 pm, January 24, 2020
+#### Obtain complete time series data of a province since 4:00 pm, January 24, 2020
  ```
  2019nCoV > pro -s -陕西省
  Request succeeded, parsing...
