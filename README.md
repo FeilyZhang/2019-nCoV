@@ -9,7 +9,7 @@ If you want source code, you can
 git clone https://github.com/FeilyZhang/2019-nCoV.git
 ```
 
-If you just want to use it simply, you can download the compressed package [here](https://github.com/FeilyZhang/2019-nCoV/releases/tag/v0.01).
+If you just want to use it simply, you can download the compressed package [here](https://github.com/FeilyZhang/2019-nCoV/releases).
 
 ## How to use
 
